@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#myWork {
+    background-color: #000;
+}
+
+#work {
+    position: relative;
+
+    /* width: 32%; */
+    height: 20rem;
+
+    border-radius: 1.5rem;
+
+
+    margin-bottom: 2.5rem;
+
+    overflow: hidden;
+
+    margin-left: 1px;
+}
+
+#work::after {
+    content: "";
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 0%;
+
+    /* z-index: 5; */
+
+    transition: 0.5s ease-in-out;
+    background-color: #aaa9;
+
+}
+
+
+.title-work {
+    color: #fff0;
+    transform: translate(0, -10rem);
+}
+
+.description-work,
+.url-work {
+    transform: translate(0, 10rem);
+    color: #fff0;
+}
+
+.url-work {
+
+    color: #0dcaf000 !important;
+}
+
+#work:hover .title-work,
+#work:hover .description-work,
+#work:hover .url-work {
+    transform: translate(0, 0)
+}
+
+.title-work,
+.url-work,
+.description-work {
+    transition: transform 0.8s ease-in-out, color 0.5s ease-in;
+
+}
+
+#work:hover .title-work,
+#work:hover .description-work {
+    color: #fff;
+
+}
+
+#work:hover .url-work {
+    color: #0dcaf0ff !important;
+}
+
+#work:hover::after {
+    height: 100%;
+    background-color: #aaa5;
+
+}
+
+#overlay-project {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 1;
+
+    background-color: #00000080;
+}
+
+.url-work {
+    cursor: pointer;
+}

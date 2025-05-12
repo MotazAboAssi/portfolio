@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  /* background-color: #000; */
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  
+  transition: all 2s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateX(0px);
+  /* margin-left: 100px; */
+}
+
+.hidden>div:not(div[class*="right"]){
+  transform: translateX(-100px);
+}
+
+.hidden>div:not(div[class*="left"]){
+  /* width: 0; */
+}
+
+.show>div:not(div[class*="right"]){
+  transform: translateX(0);
+  transition: all 2s;
+}
+
+.show>div:not(div[class*="left"]){
+  /* transform: translateX(0); */
+  /* width: 100%; */
+  transition: all 2s;
+}

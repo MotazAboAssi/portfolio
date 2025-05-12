@@ -1,0 +1,102 @@
+#logo {
+    width: 5rem;
+    height: 5rem;
+
+    background-image: url("../images/LOGO.png");
+    background-size: contain;
+}
+
+#footer {
+    background-color: rgb(3 2 21);
+    padding-top:15rem
+}
+
+#icons-footer {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+
+    margin-top:1rem ;
+
+
+}
+
+#icons-footer>li>svg {
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding-top: 0.5rem;
+}
+
+#icons-footer>li>a {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    z-index: 10;
+
+}
+
+#icons-footer>li {
+    cursor: pointer;
+    position: relative;
+
+    --value: 2rem;
+    width: var(--value);
+    height: var(--value);
+
+
+
+
+    margin-right: 0.5rem;
+
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+#icons-footer>li::after {
+    content: "";
+    position: absolute;
+
+    width: 0%;
+    height: 0%;
+
+    top: 50%;
+    left: 50%;
+
+    transform:translate(-50%, -50%);
+
+    background-color: #fff;
+
+
+    border-radius: 50%;
+    transition:  0.5s ease-in-out;
+}
+
+#icons-footer>li:hover::after {
+    width: 100%;
+    height: 100%;
+
+}
+
+#icons-footer>li:hover {
+    color: black;
+}
+
+
+
+/* 
+#icons-footer>a::after{
+    content: "";
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 50%;
+    background-color: #fff;
+} */

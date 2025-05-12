@@ -1,0 +1,28 @@
+#PersonalInfo>div>p {
+    letter-spacing: 0.01rem;
+}
+
+
+@media only screen and (max-width :1024px) {
+    #PersonalInfo>div>p {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width :768px) {
+    #PersonalInfo>div>p {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width : 425px) {
+    #PersonalInfo>div>p {
+        width: 75%;
+    }
+        
+}
+        @media only screen and (min-width :1024px) {
+            #PersonalInfo>div>p {
+                width: 25%;
+            }
+        }

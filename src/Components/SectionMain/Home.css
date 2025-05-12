@@ -1,0 +1,552 @@
+#home {
+    width: 100%;
+    height: 110vh;
+
+    background: url("../images/background.jpg") no-repeat;
+    background-size: cover;
+
+    
+
+    position: relative;
+
+    /* overflow: hidden; */
+}
+
+#overlay {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+
+    z-index: 0;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#astronaut {
+    width: 20rem;
+    height: 20rem;
+
+    background: url(../images/astronaut.png) no-repeat;
+    background-size: contain;
+
+    animation: astronaut 5s linear 0s infinite normal;
+}
+
+@keyframes astronaut {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(0, -5%);
+    }
+
+    50% {
+        transform: translate(0, 0);
+    }
+
+    75% {
+        transform: translate(0, 5%);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+#above {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid white; */
+}
+
+
+#identify {
+    font-weight: bolder;
+}
+
+
+
+
+
+#writer::before {
+    content: "";
+    animation: writer 30s linear 0s infinite normal;
+
+}
+
+@keyframes writer {
+    0% {
+        content: "B"
+    }
+
+    1% {
+        content: "Ba"
+    }
+
+    2% {
+        content: "Bac"
+    }
+
+    3% {
+        content: "Back"
+    }
+
+    4% {
+        content: "BackE"
+    }
+
+    5% {
+        content: "BackEn"
+    }
+
+    6% {
+        content: "BackEnd"
+    }
+
+    7% {
+        content: "BackEnd "
+    }
+
+    8% {
+        content: "BackEnd D"
+    }
+
+    9% {
+        content: "BackEnd De"
+    }
+
+    10% {
+        content: "BackEnd Dev"
+    }
+
+    11% {
+        content: "BackEnd Deve"
+    }
+
+    12% {
+        content: "BackEnd Devel"
+    }
+
+    13% {
+        content: "BackEnd Develo"
+    }
+
+    14% {
+        content: "BackEnd Develop"
+    }
+
+    15% {
+        content: "BackEnd Develope"
+    }
+
+    16% {
+        content: "BackEnd Developer"
+    }
+
+    17% {
+        content: "BackEnd Develop"
+    }
+
+    18% {
+        content: "BackEnd Develo"
+    }
+
+    19% {
+        content: "BackEnd Devel"
+    }
+
+    20% {
+        content: "BackEnd Deve"
+    }
+
+    21% {
+        content: "BackEnd Dev"
+    }
+
+    22% {
+        content: "BackEnd De"
+    }
+
+    23% {
+        content: "BackEnd D"
+    }
+
+    24% {
+        content: "BackEnd "
+    }
+
+    25% {
+        content: "BackEnd"
+    }
+
+    26% {
+        content: "BackEn"
+    }
+
+    27% {
+        content: "BackE"
+    }
+
+    28% {
+        content: "Back"
+    }
+
+    29% {
+        content: "Bac"
+    }
+
+    30% {
+        content: "Ba"
+    }
+
+    31% {
+        content: "B"
+    }
+
+    32% {
+        content: ""
+    }
+
+    33% {
+        content: "F"
+    }
+
+    34% {
+        content: "Fr"
+    }
+
+    35% {
+        content: "Fro"
+    }
+
+    36% {
+        content: "Fron"
+    }
+
+    37% {
+        content: "Front"
+    }
+
+    38% {
+        content: "FrontE"
+    }
+
+    39% {
+        content: "FrontEn"
+    }
+
+    40% {
+        content: "FrontEnd"
+    }
+
+    41% {
+        content: "FrontEnd "
+    }
+
+    42% {
+        content: "FrontEnd D"
+    }
+
+    43% {
+        content: "FrontEnd De"
+    }
+
+    44% {
+        content: "FrontEnd Dev"
+    }
+
+    45% {
+        content: "FrontEnd Deve"
+    }
+
+    46% {
+        content: "FrontEnd Devel"
+    }
+
+    47% {
+        content: "FrontEnd Develo"
+    }
+
+    48% {
+        content: "FrontEnd Develop"
+    }
+
+    49% {
+        content: "FrontEnd Develope"
+    }
+
+    50% {
+        content: "FrontEnd Developer"
+    }
+
+    51% {
+        content: "FrontEnd Develop"
+    }
+
+    52% {
+        content: "FrontEnd Develo"
+    }
+
+    53% {
+        content: "FrontEnd Devel"
+    }
+
+    54% {
+        content: "FrontEnd Deve"
+    }
+
+    55% {
+        content: "FrontEnd Dev"
+    }
+
+    56% {
+        content: "FrontEnd De"
+    }
+
+    57% {
+        content: "FrontEnd D"
+    }
+
+    58% {
+        content: "FrontEnd "
+    }
+
+    59% {
+        content: "FrontEnd"
+    }
+
+    60% {
+        content: "FrontEn"
+    }
+
+    61% {
+        content: "FrontE"
+    }
+
+    62% {
+        content: "Front"
+    }
+
+    63% {
+        content: "Fron"
+    }
+
+    64% {
+        content: "Fro"
+    }
+
+    65% {
+        content: "Fr"
+    }
+
+    66% {
+        content: "F"
+    }
+
+    67% {
+        content: "Fu"
+    }
+
+    68% {
+        content: "Ful"
+    }
+
+    69% {
+        content: "Full"
+    }
+
+    70% {
+        content: "FullS"
+    }
+
+    71% {
+        content: "FullSt"
+    }
+
+    72% {
+        content: "FullSta"
+    }
+
+    73% {
+        content: "FullStac"
+    }
+
+    74% {
+        content: "FullStack"
+    }
+
+    75% {
+        content: "FullStack "
+    }
+
+    76% {
+        content: "FullStack W"
+    }
+
+    77% {
+        content: "FullStack We"
+    }
+
+    78% {
+        content: "FullStack Web"
+    }
+
+    79% {
+        content: "FullStack Web "
+    }
+
+    80% {
+        content: "FullStack Web D"
+    }
+
+    81% {
+        content: "FullStack Web De"
+    }
+
+    82% {
+        content: "FullStack Web Dev"
+    }
+
+    83% {
+        content: "FullStack Web Deve"
+    }
+
+    84% {
+        content: "FullStack Web Devel"
+    }
+
+    85% {
+        content: "FullStack Web Develo"
+    }
+
+    86% {
+        content: "FullStack Web Develop"
+    }
+
+    87% {
+        content: "FullStack Web Develope"
+    }
+
+    88% {
+        content: "FullStack Web Developer"
+    }
+
+    89% {
+        content: "FullStack Web Develop"
+    }
+
+    90% {
+        content: "FullStack Web Devel"
+    }
+
+    91% {
+        content: "FullStack Web Dev"
+    }
+
+    92% {
+        content: "FullStack Web "
+    }
+
+    93% {
+        content: "FullStack Web"
+    }
+
+    94% {
+        content: "FullStack We"
+    }
+
+    95% {
+        content: "FullStack"
+    }
+
+    96% {
+        content: "FullSt"
+    }
+
+    97% {
+        content: "Full"
+    }
+
+    98% {
+        content: "Fu"
+    }
+
+    99% {
+        content: "F"
+    }
+
+    100% {
+        content: ""
+    }
+}
+
+
+#msg-welcome {
+    width: 70%;
+    text-align:center;
+    /* width: 100%; */
+
+    background: -webkit-linear-gradient(left, #04050caf, #0c0b32af, #0b0c2daf, #16113faf);
+}
+
+#connect,
+#msg-welcome {
+    font-size: large;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+
+}
+
+
+
+.icon-connect>div>svg {
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding-top: 0.5rem;
+}
+
+.icon-connect>div {
+    cursor: pointer;
+    position: relative;
+
+    --value: 2rem;
+    width: var(--value);
+    height: var(--value);
+
+    margin-right: 0.5rem;
+
+    border: 1px solid #fff;
+    border-radius: 50%;   
+
+    
+}
+
+#connect:hover .icon-connect, #connect:focus .icon-connect{
+    transform: translate(50%, 0%);
+    transition: 0.4s ease-in-out  ;
+}
+
+
+
+@media only screen and (max-width : 1024px) {
+    #home {
+        padding-top: 6rem;   
+    }
+}
+@media only screen and (max-width : 991px) {
+    #home {
+        height: 135vh;   
+    }
+}
+@media only screen and (max-width: 435px) {
+    #home{
+        height: 145vh;
+    }   
+}
