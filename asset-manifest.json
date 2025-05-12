@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c07086d1.css",
+    "main.js": "/portfolio/static/js/main.189a6972.js",
+    "static/js/453.4a7eb50c.chunk.js": "/portfolio/static/js/453.4a7eb50c.chunk.js",
+    "static/media/email.png": "/portfolio/static/media/email.cbca932755cd02727f29.png",
+    "static/media/LOGO.png": "/portfolio/static/media/LOGO.31943ea1d8210b7808d2.png",
+    "static/media/AlSham.jpg": "/portfolio/static/media/AlSham.9ea9bda6e809cbdde34c.jpg",
+    "static/media/astronaut.png": "/portfolio/static/media/astronaut.68405f7ecb545afc81b0.png",
+    "static/media/Menu.jpg": "/portfolio/static/media/Menu.829fdc77a8ac806b2c7f.jpg",
+    "static/media/ShoppingLabtob.jpg": "/portfolio/static/media/ShoppingLabtob.94bcace31455e55bac7b.jpg",
+    "static/media/ShoppingHours.jpg": "/portfolio/static/media/ShoppingHours.2a1de9607eefd7230bd5.jpg",
+    "static/media/background.jpg": "/portfolio/static/media/background.bc423c9057679e212deb.jpg",
+    "static/media/ShoppingOnline.jpg": "/portfolio/static/media/ShoppingOnline.183591c0e3d7e29fd073.jpg",
+    "static/media/ProgrammersAgency.jpg": "/portfolio/static/media/ProgrammersAgency.3a9101350dff284eb260.jpg",
+    "static/media/Success.png": "/portfolio/static/media/Success.6776e7dbfd58b183ee46.png",
+    "static/media/Failure.png": "/portfolio/static/media/Failure.f5c98ed1ab482e0f97fb.png",
+    "index.html": "/portfolio/index.html",
+    "main.c07086d1.css.map": "/portfolio/static/css/main.c07086d1.css.map",
+    "main.189a6972.js.map": "/portfolio/static/js/main.189a6972.js.map",
+    "453.4a7eb50c.chunk.js.map": "/portfolio/static/js/453.4a7eb50c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c07086d1.css",
+    "static/js/main.189a6972.js"
+  ]
+}
