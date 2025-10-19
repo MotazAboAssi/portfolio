@@ -8,7 +8,7 @@ import ProgrammersAgency from "../../images/myProject/ProgrammersAgency.jpg"
 import ShoppingHours from "../../images/myProject/ShoppingHours.jpg"
 import ShoppingLabtob from "../../images/myProject/ShoppingLabtob.jpg"
 import ShoppingOnlineNike from "../../images/myProject/ShoppingOnline.jpg"
-import MasterC from "../../images/myProject/master_communication.png"
+import MasterCommunication from "../../images/myProject/master_communication.png"
 
 import "./MyWork.css";
 
