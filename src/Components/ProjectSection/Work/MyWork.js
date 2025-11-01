@@ -8,6 +8,7 @@ import ProgrammersAgency from "../../images/myProject/ProgrammersAgency.jpg"
 import ShoppingHours from "../../images/myProject/ShoppingHours.jpg"
 import ShoppingLabtob from "../../images/myProject/ShoppingLabtob.jpg"
 import ShoppingOnlineNike from "../../images/myProject/ShoppingOnline.jpg"
+import MasterCommunication from "../../images/myProject/master_communication.jpg"
 
 import "./MyWork.css";
 
@@ -15,6 +16,7 @@ const MyWork = () => {
   const animationRouteClass = useAnimateRoute();
 
   const dataMyProject = [
+    { title: "Master Communication", img: MasterCommunication, URL: "https://motazaboassi.github.io/communication-skills-course/" },
     { title: "Shopping Goods Nike from Website", img: ShoppingOnlineNike, URL: "https://github.com/MotazAboAssi/Template-6" },
     { title: "AlSham Website", img: AlSham, URL: "https://github.com/MotazAboAssi/Template-5" },
     { title: "Programmers Agency Website", img: ProgrammersAgency, URL: "https://github.com/MotazAboAssi/Template-1" },
